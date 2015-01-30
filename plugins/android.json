@@ -4,10 +4,24 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.flyovergames.nodegap"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.flyovergames.nodegap"
         }
     },
