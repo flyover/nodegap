@@ -7,6 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0478CD181A7C38F3002A9744 /* NodeLikeGap-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0478CD171A7C38F3002A9744 /* NodeLikeGap-Info.plist */; };
+		049A98D91A7C3692002F0EC8 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DA1810823500FA85AD /* icon-76.png */; };
+		049A98DA1A7C3692002F0EC8 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
+		049A98DB1A7C3692002F0EC8 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		049A98DC1A7C3692002F0EC8 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */; };
+		049A98DD1A7C3692002F0EC8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		049A98DE1A7C3692002F0EC8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		049A98DF1A7C3692002F0EC8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		049A98E01A7C3692002F0EC8 /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
+		049A98E11A7C3692002F0EC8 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D91810823500FA85AD /* icon-60@2x.png */; };
+		049A98E21A7C3692002F0EC8 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
+		049A98E31A7C3692002F0EC8 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
+		049A98E41A7C3692002F0EC8 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
+		049A98E51A7C3692002F0EC8 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */; };
+		049A98E61A7C3692002F0EC8 /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		049A98E71A7C3692002F0EC8 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
+		049A98E81A7C3692002F0EC8 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */; };
+		049A98E91A7C3692002F0EC8 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
+		049A98EA1A7C3692002F0EC8 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
+		049A98EB1A7C3692002F0EC8 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D81810823500FA85AD /* icon-60.png */; };
+		049A98EC1A7C3692002F0EC8 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
+		049A98ED1A7C3692002F0EC8 /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		049A98EE1A7C3692002F0EC8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
+		049A98EF1A7C3692002F0EC8 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
+		049A98F01A7C3692002F0EC8 /* icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D71810823500FA85AD /* icon-50@2x.png */; };
+		049A98F11A7C3692002F0EC8 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
+		049A98F21A7C3692002F0EC8 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		049A98F41A7C3692002F0EC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		049A98F51A7C3692002F0EC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		049A98F61A7C3692002F0EC8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		049A98F71A7C3692002F0EC8 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C9AD84E5D141B99741B823 /* CDVLogger.m */; };
+		049A98F81A7C3692002F0EC8 /* NodePlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7CB61A7BFD510083298B /* NodePlugin.mm */; };
+		049A98F91A7C3692002F0EC8 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E493FF29A2B14538A3BE555E /* CDVDevice.m */; };
+		049A98FC1A7C3692002F0EC8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		049A98FD1A7C3692002F0EC8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		049A98FE1A7C3692002F0EC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		049A98FF1A7C3692002F0EC8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		049A990B1A7C36D2002F0EC8 /* libnodelikelib-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA7CB11A7BFBB40083298B /* libnodelikelib-ios.a */; };
+		049A990D1A7C36DC002F0EC8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049A990C1A7C36DC002F0EC8 /* JavaScriptCore.framework */; };
 		04EA7CB41A7BFBDA0083298B /* libnodelib-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EA7CAF1A7BFBB40083298B /* libnodelib-ios.a */; };
 		04EA7CB71A7BFD510083298B /* NodePlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7CB61A7BFD510083298B /* NodePlugin.mm */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -47,6 +86,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		049A98D61A7C3692002F0EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		049A99091A7C36C4002F0EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EA7CA61A7BFBB30083298B /* node-ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6B7C9CB0276918CA9848B1;
+			remoteInfo = "nodelikelib-ios";
+		};
 		04EA7CAE1A7BFBB40083298B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04EA7CA61A7BFBB30083298B /* node-ios.xcodeproj */;
@@ -85,6 +138,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0478CD171A7C38F3002A9744 /* NodeLikeGap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NodeLikeGap-Info.plist"; path = "NodeGap/NodeLikeGap-Info.plist"; sourceTree = SOURCE_ROOT; };
+		049A99031A7C3692002F0EC8 /* NodeLikeGap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeLikeGap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A990C1A7C36DC002F0EC8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		04EA7CA61A7BFBB30083298B /* node-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "node-ios.xcodeproj"; path = "../../../node/node-ios/node-ios.xcodeproj"; sourceTree = "<group>"; };
 		04EA7CB51A7BFD510083298B /* NodePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodePlugin.h; sourceTree = "<group>"; };
 		04EA7CB61A7BFD510083298B /* NodePlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NodePlugin.mm; sourceTree = "<group>"; };
@@ -138,6 +194,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		049A98FA1A7C3692002F0EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A990D1A7C36DC002F0EC8 /* JavaScriptCore.framework in Frameworks */,
+				049A990B1A7C36D2002F0EC8 /* libnodelikelib-ios.a in Frameworks */,
+				049A98FC1A7C3692002F0EC8 /* AssetsLibrary.framework in Frameworks */,
+				049A98FD1A7C3692002F0EC8 /* libCordova.a in Frameworks */,
+				049A98FE1A7C3692002F0EC8 /* CoreGraphics.framework in Frameworks */,
+				049A98FF1A7C3692002F0EC8 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* NodeGap.app */,
+				049A99031A7C3692002F0EC8 /* NodeLikeGap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +290,7 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* NodeGap-Info.plist */,
+				0478CD171A7C38F3002A9744 /* NodeLikeGap-Info.plist */,
 			);
 			name = Resources;
 			path = NodeGap/Resources;
@@ -228,6 +299,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				049A990C1A7C36DC002F0EC8 /* JavaScriptCore.framework */,
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
@@ -306,6 +378,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		049A98D21A7C3692002F0EC8 /* NodeLikeGap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A99001A7C3692002F0EC8 /* Build configuration list for PBXNativeTarget "NodeLikeGap" */;
+			buildPhases = (
+				049A98D71A7C3692002F0EC8 /* Copy www directory */,
+				049A98D81A7C3692002F0EC8 /* Resources */,
+				049A98F31A7C3692002F0EC8 /* Sources */,
+				049A98FA1A7C3692002F0EC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049A990A1A7C36C4002F0EC8 /* PBXTargetDependency */,
+				049A98D51A7C3692002F0EC8 /* PBXTargetDependency */,
+			);
+			name = NodeLikeGap;
+			productName = NodeGap;
+			productReference = 049A99031A7C3692002F0EC8 /* NodeLikeGap.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1D6058900D05DD3D006BFB54 /* NodeGap */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NodeGap" */;
@@ -363,6 +455,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* NodeGap */,
+				049A98D21A7C3692002F0EC8 /* NodeLikeGap */,
 			);
 		};
 /* End PBXProject section */
@@ -392,6 +485,40 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		049A98D81A7C3692002F0EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A98D91A7C3692002F0EC8 /* icon-76.png in Resources */,
+				049A98DA1A7C3692002F0EC8 /* icon-40@2x.png in Resources */,
+				049A98DB1A7C3692002F0EC8 /* icon-72.png in Resources */,
+				049A98DC1A7C3692002F0EC8 /* Default-736h.png in Resources */,
+				049A98DD1A7C3692002F0EC8 /* icon.png in Resources */,
+				049A98DE1A7C3692002F0EC8 /* icon@2x.png in Resources */,
+				049A98DF1A7C3692002F0EC8 /* MainViewController.xib in Resources */,
+				049A98E01A7C3692002F0EC8 /* icon-50.png in Resources */,
+				049A98E11A7C3692002F0EC8 /* icon-60@2x.png in Resources */,
+				049A98E21A7C3692002F0EC8 /* icon-small.png in Resources */,
+				049A98E31A7C3692002F0EC8 /* Default-Landscape@2x~ipad.png in Resources */,
+				049A98E41A7C3692002F0EC8 /* Default-Landscape~ipad.png in Resources */,
+				049A98E51A7C3692002F0EC8 /* Default-Portrait@2x~ipad.png in Resources */,
+				049A98E61A7C3692002F0EC8 /* icon-small@2x.png in Resources */,
+				049A98E71A7C3692002F0EC8 /* Default-Portrait~ipad.png in Resources */,
+				0478CD181A7C38F3002A9744 /* NodeLikeGap-Info.plist in Resources */,
+				049A98E81A7C3692002F0EC8 /* Default-667h.png in Resources */,
+				049A98E91A7C3692002F0EC8 /* icon-40.png in Resources */,
+				049A98EA1A7C3692002F0EC8 /* Default@2x~iphone.png in Resources */,
+				049A98EB1A7C3692002F0EC8 /* icon-60.png in Resources */,
+				049A98EC1A7C3692002F0EC8 /* Default~iphone.png in Resources */,
+				049A98ED1A7C3692002F0EC8 /* Default-568h@2x~iphone.png in Resources */,
+				049A98EE1A7C3692002F0EC8 /* Default-Landscape-736h.png in Resources */,
+				049A98EF1A7C3692002F0EC8 /* icon-60@3x.png in Resources */,
+				049A98F01A7C3692002F0EC8 /* icon-50@2x.png in Resources */,
+				049A98F11A7C3692002F0EC8 /* icon-76@2x.png in Resources */,
+				049A98F21A7C3692002F0EC8 /* icon-72@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +555,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		049A98D71A7C3692002F0EC8 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cordova/lib/copy-www-build-step.sh";
+			showEnvVarsInLog = 0;
+		};
 		304B58A110DAC018002A0835 /* Copy www directory */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,6 +588,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		049A98F31A7C3692002F0EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A98F41A7C3692002F0EC8 /* main.m in Sources */,
+				049A98F51A7C3692002F0EC8 /* AppDelegate.m in Sources */,
+				049A98F61A7C3692002F0EC8 /* MainViewController.m in Sources */,
+				049A98F71A7C3692002F0EC8 /* CDVLogger.m in Sources */,
+				049A98F81A7C3692002F0EC8 /* NodePlugin.mm in Sources */,
+				049A98F91A7C3692002F0EC8 /* CDVDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,6 +617,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		049A98D51A7C3692002F0EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 049A98D61A7C3692002F0EC8 /* PBXContainerItemProxy */;
+		};
+		049A990A1A7C36C4002F0EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "nodelikelib-ios";
+			targetProxy = 049A99091A7C36C4002F0EC8 /* PBXContainerItemProxy */;
+		};
 		04EA7CB31A7BFBD30083298B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "nodelib-ios";
@@ -475,6 +640,88 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		049A99011A7C3692002F0EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeGap/NodeGap-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					node_modules/nan,
+					"\"$(NODE_PATH)/src\"",
+					"\"$(NODE_PATH)/deps/uv/include\"",
+					"\"$(V8LIKE_PATH)/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NodeGap/NodeLikeGap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = NodeLikeGap;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049A99021A7C3692002F0EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeGap/NodeGap-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					node_modules/nan,
+					"\"$(NODE_PATH)/src\"",
+					"\"$(NODE_PATH)/deps/uv/include\"",
+					"\"$(V8LIKE_PATH)/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NodeGap/NodeLikeGap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = NodeLikeGap;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -582,6 +829,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
+				V8LIKE_PATH = ../../../v8like;
 			};
 			name = Debug;
 		};
@@ -631,12 +879,22 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
+				V8LIKE_PATH = ../../../v8like;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		049A99001A7C3692002F0EC8 /* Build configuration list for PBXNativeTarget "NodeLikeGap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A99011A7C3692002F0EC8 /* Debug */,
+				049A99021A7C3692002F0EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NodeGap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
