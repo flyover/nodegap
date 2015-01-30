@@ -6,10 +6,10 @@
     </feature>
     <name>NodeGap</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A combination of the Ace editor, Node.js and Apache Cordova.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="info@flyovergames.com" href="http://flyovergames.com">
+        Flyover Games, LLC
     </author>
     <content src="index.html" />
     <access origin="*" />
