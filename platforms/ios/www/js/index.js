@@ -4,94 +4,6 @@
 
 var boot = function ()
 {
-///	document.addEventListener('deviceready', function ()
-///	{
-///		var id = 'deviceready';
-///		var parentElement = document.getElementById(id);
-///		var listeningElement = parentElement.querySelector('.listening');
-///		var receivedElement = parentElement.querySelector('.received');
-///
-///		listeningElement.setAttribute('style', 'display:none;');
-///		receivedElement.setAttribute('style', 'display:block;');
-///
-///		console.log('Received Event: ' + id);
-///
-///		NodePlugin.loop(
-///			function (str)
-///			{
-///				console.log("stdout", str);
-///				receivedElement.innerHTML = str;
-///			},
-///			function (str)
-///			{
-///				console.log("stderr", str);
-///			}
-///		);
-///
-///		setTimeout(function ()
-///		{
-///			NodePlugin.exec("console.log('Hello, World!');", function (err)
-///			{
-///				console.log("done", err);
-///			});
-///		}, 3000);
-///
-///	}, false);
-
-///	var app = {
-/// 	// Application Constructor
-/// 	initialize: function() {
-/// 		this.bindEvents();
-/// 	},
-/// 	// Bind Event Listeners
-/// 	//
-/// 	// Bind any events that are required on startup. Common events are:
-/// 	// 'load', 'deviceready', 'offline', and 'online'.
-/// 	bindEvents: function() {
-/// 		document.addEventListener('deviceready', this.onDeviceReady, false);
-/// 	},
-/// 	// deviceready Event Handler
-/// 	//
-/// 	// The scope of 'this' is the event. In order to call the 'receivedEvent'
-/// 	// function, we must explicitly call 'app.receivedEvent(...);'
-/// 	onDeviceReady: function() {
-/// 		app.receivedEvent('deviceready');
-/// 	},
-/// 	// Update DOM on a Received Event
-/// 	receivedEvent: function(id) {
-/// 		var parentElement = document.getElementById(id);
-/// 		var listeningElement = parentElement.querySelector('.listening');
-/// 		var receivedElement = parentElement.querySelector('.received');
-///	
-/// 		listeningElement.setAttribute('style', 'display:none;');
-/// 		receivedElement.setAttribute('style', 'display:block;');
-///	
-/// 		console.log('Received Event: ' + id);
-///	
-/// 		NodePlugin.loop(
-/// 			function (str)
-/// 			{
-/// 				console.log("stdout", str);
-/// 				receivedElement.innerHTML = str;
-/// 			},
-/// 			function (str)
-/// 			{
-/// 				console.log("stderr", str);
-/// 			}
-/// 		);
-///	
-/// 		setTimeout(function ()
-/// 		{
-/// 			NodePlugin.exec("console.log('Hello, World!');", function (err)
-/// 			{
-/// 				console.log("done", err);
-/// 			});
-/// 		}, 3000);
-/// 	}
-///	};
-///	
-///	app.initialize();
-
 	document.body.style.width = '100%';
 	document.body.style.height = '100%';
 	document.body.style.border = '0px';
@@ -221,3 +133,4 @@ var boot = function ()
 		setTimeout(function () { exec_button.disabled = false; }, 1000);
 	}, false);
 }
+
