@@ -24,6 +24,10 @@ import org.apache.cordova.*;
 
 public class CordovaApp extends CordovaActivity
 {
+	static { System.loadLibrary("NodeGap"); }
+	
+	public static native void nativeInit();
+	
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -31,5 +35,7 @@ public class CordovaApp extends CordovaActivity
         super.init();
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
+
+		CordovaApp.nativeInit();
     }
 }

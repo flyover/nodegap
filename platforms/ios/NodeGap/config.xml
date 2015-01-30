@@ -19,6 +19,10 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="NodePlugin">
+        <param name="ios-package" value="NodePlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
     </feature>

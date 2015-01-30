@@ -45,6 +45,26 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        NodePlugin.loop(
+            function (str)
+            {
+                console.log("stdout", str);
+                receivedElement.innerHTML = str;
+            },
+            function (str)
+            {
+                console.log("stderr", str);
+            }
+        );
+
+        setTimeout(function ()
+        {
+            NodePlugin.exec("console.log('Hello, World!');", function (err)
+            {
+                console.log("done", err);
+            });
+        }, 3000);
     }
 };
 

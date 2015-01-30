@@ -13,3 +13,5 @@ out
 # Gradle builds
 /build
 /ant-build/
+/obj/
+/assets/www/ace/
