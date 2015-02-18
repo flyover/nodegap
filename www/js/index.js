@@ -62,6 +62,10 @@ var boot = function ()
 	exec_button.innerHTML = "RUN";
 	exec_button.style.margin = '8px';
 	exec_button.style.padding = '8px';
+	var clear_button = table_row_div.appendChild(document.createElement('button'));
+	clear_button.innerHTML = "CLEAR";
+	clear_button.style.margin = '8px';
+	clear_button.style.padding = '8px';
 
 	//var div = table_div.appendChild(document.createElement('div'));
 	//var output_textarea = div.appendChild(document.createElement('textarea'));
@@ -87,6 +91,21 @@ var boot = function ()
 	output_editor.renderer.setShowGutter(false);
 	output_editor.renderer.setShowPrintMargin(false);
 
+	source_editor.on('input', function(e){
+		
+		// disable by default
+		// this will be changed in the if statement below
+		exec_button.disabled = true;
+
+		var code = source_editor.getValue();
+
+		// check if there is no code to be executed
+		if (code.length > 0) {
+			exec_button.disabled = false;
+		}
+
+	});
+
 	exec_button.addEventListener('click', function (evt)
 	{
 		exec_button.disabled = true;
@@ -94,11 +113,25 @@ var boot = function ()
 		output_editor.setValue(""); // clear output
 		//var code = source_textarea.value;
 		var code = source_editor.getValue();
+
+		// check if there is no code to be executed
+		if (code.length === 0) {
+			return;
+		}
+
 		NodePlugin.exec(code, function (err)
 		{
 			//exec_button.disabled = false;
 			setTimeout(function () { exec_button.disabled = false; }, 1000);
 		});
+
+	}, false);
+
+	clear_button.addEventListener('click', function (evt)
+	{
+		exec_button.disabled = true;
+		source_editor.setValue(""); // clear input
+		output_editor.setValue(""); // clear output
 	}, false);
 
 	var xhr = new XMLHttpRequest();
@@ -114,7 +147,7 @@ var boot = function ()
 	xhr.open("GET", "default.js", true);
 	xhr.send();
 
-	exec_button.disabled = true;
+	// exec_button.disabled = true;
 	document.addEventListener('deviceready', function ()
 	{
 		NodePlugin.loop(
